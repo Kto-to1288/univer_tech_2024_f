@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="DOMscript.js"></script>
+    </head>
+    <body>
+        <div>
+            <Button onclick="UsersFunction()">Загрузить данные</Button>
+            <Button onclick="$('table tbody').children().remove()">Очистить</Button>
+            <table cellspacing="2" border="1" cellpadding="5" width="600">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Title</th>
+                        <th>Complete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                   
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
